@@ -1,0 +1,82 @@
+:root {
+  --main-font: "Kanit", sens-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*=====HEADER=====*/
+.header .container {
+  display: flex;
+  background-color: #0e0e0e;
+}
+
+.navigation-link {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.navigation-item {
+  text-transform: uppercase;
+}
+/*=====END HEADER=====*/
+
+/*=====END HERO=====*/
+.hero {
+  padding-top: 255px;
+  padding-bottom: 255px;
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-weight: 586px;
+  font-size: 48px;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.hero-text {
+  font-size: 36px;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.hero-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.85;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: 4px solid #c53720;
+  background-color: #0e0e0e;
+  color: #ffffff;
+  cursor: pointer;
+  margin: auto;
+}
+
+.hero .container {
+}
+/*=====END HERO=====*/
